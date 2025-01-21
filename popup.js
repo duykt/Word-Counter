@@ -9,8 +9,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         func: getSelectedText,
       },
       (results) => {
-        const highlightedText = results[0]?.result || "No text highlighted.";
-        document.getElementById("word-count").textContent = highlightedText;
+        const highlightedText = results[0]?.result;
+        let wordCount = 0; let charCount = 0;
+        if (highlightedText) {
+            wordCount = highlightedText.split(' ').length;
+            charCount = highlightedText.trim().replaceAll(' ', '').length;
+        }
+
+        document.getElementById("word-count").textContent = "Word Count: " + wordCount;
+        document.getElementById("char-count").textContent = "Character Count: " + charCount;
       }
     );
   });
