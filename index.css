@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto", "Arial";
+    font-size: 16px;
+}
+
+#counter {
+    width: 200px;
+}
+
+#title {
+    font-weight: bold;
+}
