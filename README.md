@@ -7,3 +7,4 @@ Browser extention that shows the word and character count of highlighted text.
 Highlight text on a webpage, then open the web counter to get the page's word and character count.
 
 # Installation
+[Download in Chrome Web Store](https://chromewebstore.google.com/detail/word-counter/dejjefmdnfjnkcmbpeceigcbdbopjehi?authuser=0&hl=en)
